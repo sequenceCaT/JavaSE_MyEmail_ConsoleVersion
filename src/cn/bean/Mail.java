@@ -44,6 +44,4 @@ public class Mail implements Serializable{
 	public Mail() {
 	}
 	
-	
-	
 }

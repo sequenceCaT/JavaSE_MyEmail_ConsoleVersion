@@ -2,6 +2,13 @@ package cn.bean;
 
 import java.io.Serializable;
 
+/**
+ * 用户与邮件的关联类
+ * @author Sai
+ * @param mailId:邮件id
+ * @param sendUserId:发送方id
+ * @param receiveUserId:接收方id
+ */
 public class UserMail implements Serializable{
 
 	private String mailId;

@@ -2,6 +2,14 @@ package cn.bean;
 
 import java.io.Serializable;
 
+/**
+ * 用户类
+ * @author Sai
+ * @param userId:用户id
+ * @param userAccount:用户名
+ * @param userPassword:用户密码
+ */
+
 public class User implements Serializable{
 
 	private String userId;

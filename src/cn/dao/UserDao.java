@@ -14,18 +14,18 @@ public interface UserDao {
 
 	/**
 	 * 登陆操作
-	 * @param userList：存储所有用户的List集合，建议传入TreeSet的实例
-	 * @param userAccount：登陆用户名
-	 * @param password：登陆密码
+	 * @param userList 存储所有用户的List集合，建议传入TreeSet的实例
+	 * @param userAccount 登陆用户名
+	 * @param password 登陆密码
 	 * @return 登陆用户的引用，若登陆失败返回null
 	 */
 	public User login(Set<User> userList, String userAccount, String password);
 	
 	/**
 	 * 注册操作
-	 * @param userList：存储所有用户的List集合，建议传入TreeSet的实例
-	 * @param userAccount：注册用户名
-	 * @param password：注册密码
+	 * @param userList 存储所有用户的List集合，建议传入TreeSet的实例
+	 * @param userAccount 注册用户名
+	 * @param password 注册密码
 	 * @return 注册用户的引用，若注册失败返回null
 	 */
 	public User register(Set<User> userList, String userAccount, String password);
