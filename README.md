@@ -1,0 +1,1 @@
+# JavaSE_MyEmail_ConsoleVersion
